@@ -1,0 +1,69 @@
+{
+  "marca": { "nome": "Alt Labs", "logo": "assets/marca/alt-labs.webp" },
+  "instagram": {
+    "direct": "https://ig.me/m/altlabs_design",
+    "perfil": "https://www.instagram.com/altlabs_design/",
+    "usuario": "@altlabs_design"
+  },
+  "hero": {
+    "titulo": "Marcas que ficam na memória.",
+    "texto": "Somos um laboratório de logos e identidades visuais. Criamos a marca inteira, da ideia ao último detalhe da embalagem.",
+    "botao": "Fale com a gente"
+  },
+  "servicos": [
+    {
+      "titulo": "Criação de Logos",
+      "cor": "azul",
+      "texto": "Um símbolo claro, único e que funciona em qualquer tamanho. Do rascunho à versão final, com variações para uso em telas e impressos."
+    },
+    {
+      "titulo": "Identidade Visual",
+      "cor": "laranja",
+      "texto": "O sistema completo da marca: paleta, tipografia, padrões e aplicações em fachada, embalagens, sacolas, etiquetas e materiais impressos."
+    }
+  ],
+  "trabalhos": {
+    "logos": [
+      { "nome": "Bolos 7 Netas", "tipo": "Cliente", "imagem": "assets/logos/7-netas.webp", "legenda": "Confeitaria artesanal" },
+      { "nome": "Monograma A", "tipo": "Cliente", "imagem": "assets/logos/monograma-a.webp", "legenda": "Monograma" },
+      { "nome": "Aromê", "tipo": "Cliente", "imagem": "assets/logos/arome.webp", "legenda": "Velas aromáticas" },
+      { "nome": "Elewa", "tipo": "Projeto autoral", "imagem": "assets/logos/elewa.webp", "legenda": "Logotipo colorido" },
+      { "nome": "Sylvon Creative", "tipo": "Projeto autoral", "imagem": "assets/logos/sylvon.webp", "legenda": "Estúdio criativo" },
+      { "nome": "Eras Park", "tipo": "Projeto autoral", "imagem": "assets/logos/eras-park.webp", "legenda": "Logotipo ilustrado" }
+    ],
+    "identidades": [
+      { "nome": "Ziva", "tipo": "Cliente", "imagem": "assets/identidades/ziva.webp", "legenda": "Moda e doces" },
+      { "nome": "Movâ Studio", "tipo": "Cliente", "imagem": "assets/identidades/mova.webp", "legenda": "Academia" },
+      { "nome": "Lumière Café", "tipo": "Cliente", "imagem": "assets/identidades/lumiere.webp", "legenda": "Cafeteria" },
+      { "nome": "Orélie Coffee & Bakery", "tipo": "Cliente", "imagem": "assets/identidades/orelie.webp", "legenda": "Cafeteria e padaria" },
+      { "nome": "O.LU", "tipo": "Projeto autoral", "imagem": "assets/identidades/olu.webp", "legenda": "Vista sua essência" }
+    ]
+  },
+  "processo": [
+    {
+      "titulo": "Do traço ao símbolo",
+      "video": "assets/videos/processo-logo.mp4",
+      "passos": [
+        { "t": "Escuta", "d": "Entendemos o negócio, o público e o que a marca precisa dizer." },
+        { "t": "Esboço", "d": "Muitos rascunhos à mão. A ideia certa aparece na quantidade." },
+        { "t": "Refino", "d": "Construímos a forma final com grade, proporção e peso." }
+      ]
+    },
+    {
+      "titulo": "Da logo ao sistema",
+      "video": "assets/videos/processo-identidade.mp4",
+      "passos": [
+        { "t": "Cor e letra", "d": "Paleta e tipografia que sustentam a marca em qualquer meio." },
+        { "t": "Padrões", "d": "Elementos gráficos próprios que dão personalidade ao conjunto." },
+        { "t": "Aplicações", "d": "Fachada, embalagens, sacolas e etiquetas prontos para uso." }
+      ]
+    }
+  ],
+  "contato": {
+    "titulo": "Vamos criar a sua marca?",
+    "texto": "Chame a gente no direct do Instagram. Conte sobre o seu projeto e respondemos por lá.",
+    "botao": "Fale com a gente",
+    "perfilBotao": "Ver perfil"
+  },
+  "videos": { "hero": "assets/videos/hero.mp4" }
+}

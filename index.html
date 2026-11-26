@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Alt Labs | Logos e Identidades Visuais</title>
+<meta name="description" content="Alt Labs: laboratório de logos e identidades visuais. Veja os trabalhos e fale com a gente no Instagram.">
+<link rel="icon" href="assets/marca/alt-labs.webp">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Playfair+Display:wght@700;800;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<a class="skip" href="#conteudo">Pular para o conteúdo</a>
+
+<header class="topo" id="topo">
+  <a class="topo__logo" href="#inicio" aria-label="Alt Labs, início"><img data-bind="logo" alt="Alt Labs" width="44" height="44"></a>
+  <nav class="topo__nav" aria-label="Principal">
+    <a href="#servicos">Serviços</a>
+    <a href="#trabalhos">Trabalhos</a>
+    <a href="#processo">Processo</a>
+    <a href="#contato">Contato</a>
+  </nav>
+  <div class="topo__acoes">
+    <a class="link-perfil" data-bind-href="perfil" target="_blank" rel="noopener">Ver perfil</a>
+    <a class="btn btn--azul" data-bind-href="direct" data-bind-text="heroBotao" target="_blank" rel="noopener">Fale com a gente</a>
+  </div>
+</header>
+
+<main id="conteudo">
+  <section class="hero" id="inicio">
+    <div class="hero__colagens" aria-hidden="true">
+      <img class="col col--1" data-speed="-.10" src="assets/colagens/listras-blob.webp" alt="">
+      <img class="col col--2" data-speed=".14" src="assets/colagens/arte-folha.webp" alt="">
+      <img class="col col--3" data-speed="-.05" src="assets/colagens/opart-arco.webp" alt="">
+      <img class="col col--4" data-speed=".08" src="assets/colagens/formas-blob.webp" alt="">
+    </div>
+    <div class="hero__texto">
+      <p class="selo">Logos e identidades visuais</p>
+      <h1 data-bind="heroTitulo">Marcas que ficam na memória.</h1>
+      <p class="hero__sub" data-bind="heroTexto"></p>
+      <div class="hero__cta">
+        <a class="btn btn--laranja btn--grande" data-bind-href="direct" data-bind-text="heroBotao" target="_blank" rel="noopener">Fale com a gente</a>
+        <a class="btn btn--linha" href="#trabalhos">Ver trabalhos</a>
+      </div>
+    </div>
+    <div class="hero__video" id="heroVideo" hidden>
+      <video muted loop playsinline preload="metadata" aria-hidden="true"></video>
+    </div>
+  </section>
+
+  <section class="secao" id="servicos">
+    <div class="secao__cab"><h2>O que fazemos</h2></div>
+    <div class="servicos" id="listaServicos"></div>
+  </section>
+
+  <section class="secao secao--trabalhos" id="trabalhos">
+    <img class="deco deco--a" data-speed=".12" src="assets/colagens/xadrez-folha.webp" alt="" aria-hidden="true">
+    <img class="deco deco--b" data-speed="-.1" src="assets/colagens/espiral-blob.webp" alt="" aria-hidden="true">
+    <div class="secao__cab"><h2>Trabalhos</h2><p>Logos e identidades criados pela Alt Labs, para clientes e como projetos autorais.</p></div>
+    <div class="abas" role="tablist" aria-label="Tipo de trabalho">
+      <button role="tab" id="aba-logos" aria-controls="painel-logos" aria-selected="true">Logos</button>
+      <button role="tab" id="aba-identidades" aria-controls="painel-identidades" aria-selected="false" tabindex="-1">Identidades Visuais</button>
+    </div>
+    <div class="painel" role="tabpanel" id="painel-logos" aria-labelledby="aba-logos"><div class="grade" data-grade="logos"></div></div>
+    <div class="painel" role="tabpanel" id="painel-identidades" aria-labelledby="aba-identidades" hidden><div class="grade grade--larga" data-grade="identidades"></div></div>
+  </section>
+
+  <section class="secao" id="processo">
+    <div class="secao__cab"><h2>Como criamos</h2><p>Duas etapas: primeiro o símbolo, depois o sistema inteiro da marca.</p></div>
+    <div id="listaProcesso"></div>
+  </section>
+
+  <section class="contato" id="contato">
+    <div class="hero__video" id="contatoVideo" hidden><video muted loop playsinline preload="metadata" aria-hidden="true"></video></div>
+    <div class="contato__colagens" aria-hidden="true">
+      <img class="cc cc--1" data-speed="-.10" src="assets/colagens/arte-blob.webp" alt="">
+      <img class="cc cc--2" data-speed=".14" src="assets/colagens/listras-arco.webp" alt="">
+      <img class="cc cc--3" data-speed="-.05" src="assets/colagens/xadrez-folha.webp" alt="">
+      <img class="cc cc--4" data-speed=".08" src="assets/colagens/espiral-blob.webp" alt="">
+    </div>
+    <div class="contato__corpo">
+      <h2 data-bind="contatoTitulo"></h2>
+      <p data-bind="contatoTexto"></p>
+      <div class="hero__cta">
+        <a class="btn btn--vermelho btn--grande" data-bind-href="direct" data-bind-text="contatoBotao" target="_blank" rel="noopener">Fale com a gente</a>
+        <a class="btn btn--linha" data-bind-href="perfil" data-bind-text="perfilBotao" target="_blank" rel="noopener">Ver perfil</a>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="rodape">
+  <img data-bind="logo" alt="" width="36" height="36">
+  <p>© <span id="ano"></span> Alt Labs. Imagens e trabalhos protegidos por direitos autorais. Reprodução proibida.</p>
+  <a data-bind-href="perfil" data-bind-text="usuario" target="_blank" rel="noopener"></a>
+</footer>
+
+<dialog class="zoom" id="zoom">
+  <form method="dialog"><button class="zoom__fechar" aria-label="Fechar">×</button></form>
+  <img alt="">
+  <p class="zoom__leg"></p>
+</dialog>
+<script src="app.js"></script>
+</body>
+</html>
